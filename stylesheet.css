@@ -79,7 +79,7 @@
 
 .flex-items {
   width: 40%;
-  height: 340px;
+  height: 320px;
   text-align: center;
   margin-top: 3%;
   border-radius: 25px;
@@ -91,7 +91,9 @@
 .flex-items h1.header {
   color: black;
   font-weight: lighter;
-  margin: 20px;
+  margin-top: 0px;
+  margin-inline: 20px;
+  margin-bottom: 20px;
   font-size: xx-large;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
