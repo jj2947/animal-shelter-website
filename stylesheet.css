@@ -114,3 +114,7 @@
   border-radius: 1px;
   border: 2px rgb(211, 146, 166) solid;
 }
+
+.flex-items a:hover, .flex-items a:active {
+  background-color: rgb(236, 212, 220);
+}
