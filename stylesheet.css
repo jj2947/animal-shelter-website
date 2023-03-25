@@ -98,11 +98,6 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.flex-items img {
-  width: 102.4px;
-  height: 102.4px;
-}
-
 .flex-items p {
   color: rgb(157, 155, 155);
   margin-inline: 20px;
