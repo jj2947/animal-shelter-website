@@ -9,7 +9,6 @@
 .topnav a:visited {
   text-decoration: none;
   color: black;
-  text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: x-large;
   font-weight: 200;
@@ -87,7 +86,6 @@
   border-radius: 10px;
   border: 2px rgba(206, 121, 152, 0.337) solid;
   box-shadow: 5px 5px 5px 5px rgba(203, 111, 157, 0.248);
-  align-items: baseline;
 }
 
 .flex-items h1.header {
@@ -123,4 +121,40 @@
 .flex-items a:hover,
 .flex-items a:active {
   color: rgb(236, 212, 220);
+}
+
+.banner {
+  background-color: rgb(232, 151, 168);
+  margin-top: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height:200px;
+}
+
+.banner p {
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.banner a {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  color: rgb(245, 89, 115);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: white;
+  padding-inline: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.banner a:hover, .banner a:active {
+  color: rgba(231, 128, 157, 0.661);
 }
