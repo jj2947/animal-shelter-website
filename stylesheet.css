@@ -1,12 +1,12 @@
-/* Add a black background color to the top navigation */
+/* Add a top nav bar */
 .topnav {
   overflow: hidden;
   text-align: center;
   margin-bottom: 25px;
 }
 
-.topnav a,
-.topnav a:visited {
+/* Style the links inside the navigation bar */
+.topnav a {
   text-decoration: none;
   color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -16,12 +16,14 @@
   width: 175px;
 }
 
+/* Change the color of links on hover and active*/
 .topnav a.active,
 .topnav a:hover,
 .topnav a:active {
   color: pink;
 }
 
+/* Centers the littlest pet shop logo at the top of the page */
 .center {
   display: block;
   margin-left: auto;
@@ -30,13 +32,14 @@
   width: 50%;
 }
 
-/* Container holding the image and the text */
+/* Container holding the image of the dog and girl and the text */
 .container {
   position: relative;
   text-align: center;
   color: white;
 }
 
+/* Crops the image of the dog and girl */
 .crop {
   width: 100%;
   height: 550px;
@@ -44,6 +47,7 @@
   object-position: 50% 15%;
 }
 
+/* Text on the image */
 .img-text {
   color: white;
   font-family: Helvetica;
@@ -57,6 +61,7 @@
   white-space: nowrap;
 }
 
+/* Bottom line of text on the image */
 .img-text-2 {
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -70,6 +75,7 @@
   white-space: nowrap;
 }
 
+/* Container for the info squares*/
 .flex-container {
   display: flex;
   justify-content: center;
@@ -78,9 +84,10 @@
   margin-inline-start: 2%;
 }
 
+/* Individual info squares */
 .flex-items {
   height: 420px;
-  width:30%;
+  width: 30%;
   text-align: center;
   margin-top: 5%;
   border-radius: 10px;
@@ -88,6 +95,7 @@
   box-shadow: 5px 5px 5px 5px rgba(203, 111, 157, 0.248);
 }
 
+/* Titles of the info squares */
 .flex-items h1.header {
   color: black;
   font-weight: lighter;
@@ -98,6 +106,7 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Text of the info squares */
 .flex-items p {
   color: rgb(157, 155, 155);
   margin-inline: 30px;
@@ -107,6 +116,7 @@
   margin-bottom: 27px;
 }
 
+/* Links of the info squares */
 .flex-items a {
   color: rgb(211, 146, 166);
   text-decoration: none;
@@ -118,20 +128,22 @@
   border: 2px rgb(211, 146, 166) solid;
 }
 
+/* Hover and active effects of the links */
 .flex-items a:hover,
 .flex-items a:active {
   color: rgb(236, 212, 220);
 }
 
+/* Container for the Get In Touch banner */
 .banner {
   background-color: rgb(232, 166, 180);
   margin-top: 80px;
   display: flex;
   align-items: center;
-
-  height:150px;
+  height: 150px;
 }
 
+/* Text of the Get In Touch banner */
 .banner p {
   font-size: 40px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -141,6 +153,7 @@
   margin-inline: 10%;
 }
 
+/* Links of the Get In Touch banner */
 .banner a {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
@@ -155,10 +168,13 @@
   margin-inline: 5%;
 }
 
-.banner a:hover, .banner a:active {
+/* Hover and active effects of the links for the Get In Touch banner*/
+.banner a:hover,
+.banner a:active {
   color: rgba(249, 130, 163, 0.661);
 }
 
+/* Container for the footer */
 footer {
   background-color: rgb(251, 190, 203);
   display: flex;
@@ -168,13 +184,15 @@ footer {
   justify-content: center;
 }
 
+/* Individual footer items */
 .item {
   flex: 1 1 0px;
   width: 0;
   text-align: center;
 }
 
-.index{
+/* Text and links of the footer */
+.index {
   color: rgb(209, 78, 117);
   font-size: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -184,10 +202,13 @@ footer {
   line-height: 30px;
 }
 
-.link:hover, .link:active {
+/* Effects for Links of the footer when hovering or active*/
+.link:hover,
+.link:active {
   font-weight: bold;
 }
 
+/* Paragraph with address on the footer */
 .info {
   color: rgb(209, 78, 117);
   font-size: 20px;
