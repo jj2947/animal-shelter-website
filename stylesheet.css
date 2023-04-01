@@ -82,7 +82,7 @@
   height: 420px;
   width:30%;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 5%;
   border-radius: 10px;
   border: 2px rgba(206, 121, 152, 0.337) solid;
   box-shadow: 5px 5px 5px 5px rgba(203, 111, 157, 0.248);
@@ -152,7 +152,7 @@
   background-color: white;
   padding-inline: 15px;
   padding-top: 4px;
-  margin-inline: 4%;
+  margin-inline: 5%;
 }
 
 .banner a:hover, .banner a:active {
@@ -163,6 +163,37 @@ footer {
   background-color: rgb(251, 190, 203);
   display: flex;
   align-items: center;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+}
 
-  height:250px;
+.item {
+  flex: 1 1 0px;
+  width: 0;
+  text-align: center;
+}
+
+.index{
+  color: rgb(209, 78, 117);
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.link:hover, .link:active {
+  font-weight: bold;
+}
+
+.info {
+  color: rgb(209, 78, 117);
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: normal;
+  line-height: 30px;
 }
