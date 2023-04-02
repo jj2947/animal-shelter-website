@@ -21,7 +21,59 @@
         <a class="active" href="Contact.html">Contact Us</a>
     </div>
 
-    <p>text</p>
+    <div class="contact-container">
+
+        <div class="contact-item">
+            <h1 style="margin-left: 20%;">Visit us</h1>
+            <p>Littlest Pet Shop<br>
+                1234 Pet Lane<br>
+                Pet City, PA 12345<br>
+                123-456-7890</p>
+            <h1 style="margin-left: 20%; margin-top: 10%;">General Enquiries</h1>
+            <p>For general enquiries please use the form or contact us at
+                <a href="mailto:littlestpetshop@lps.com" style = "color: rgb(112, 110, 111);">littlestpetshop@lps.com</a>
+            </p>
+        </div>
+
+        <div class="contact-item">
+            <h1>Send us a message</h1>
+
+            <form id="form" action="nothing" method="get" onsubmit="alert('Form succcessfully submitted');">
+                <li><label for="fname"></label>
+                    <input type="text" id="fname" name="firstname" placeholder="FIRST NAME:*" required>
+                </li>
+
+                <li><label for="lname"></label>
+                    <input type="text" id="lname" name="lastname" placeholder="LAST NAME:*" required>
+                </li>
+
+                <li><label for="email"></label>
+                    <input type="text" id="email" name="email" placeholder="EMAIL:*" required>
+                </li>
+
+                <li><label for="mobile"></label>
+                    <input type="text" id="mobile" name="mobile" placeholder="MOBILE PHONE:*" required>
+                </li>
+
+                <li><label for="subject">Subject:*<br></label>
+                    <select id="subject" name="subject" required>
+                        <option value=""></option>
+                        <option value="General Enquiry">General Enquiry</option>
+                        <option value="Education">Education</option>
+                        <option value="Adoption">Adoption</option>
+                        <option value="Volunteering">Volunteering</option>
+                    </select>
+                </li>
+
+                <li><label for="message">Message:*<br></label>
+                    <textarea id="message" name="message" style="height:200px" required></textarea>
+                </li>
+
+                <button id="btn" type="submit">Submit</button>
+            </form>
+        </div>
+
+    </div>
 
     <footer>
         <img class="item"
@@ -45,3 +97,7 @@
     </footer>
 
 </body>
+
+<script src="script.js"> </script>
+
+</html>

@@ -218,3 +218,111 @@ footer {
   font-weight: normal;
   line-height: 30px;
 }
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-inline-end: 2%;
+  margin-inline-start: 2%;
+  align-items: baseline;
+}
+
+.contact-item {
+  flex: 1 1 0px;
+  width: 0;
+}
+
+.contact-container form {
+  list-style-type: none;
+}
+
+.contact-container h1 {
+  color: rgb(211, 146, 166);
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-container input {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  border: 2px rgb(211, 146, 166, 0.428) solid;
+  margin-bottom: 20px;
+  padding-inline: 20px;
+  font-size: medium;
+}
+
+.contact-container ::placeholder {
+  color: rgb(211, 146, 166);
+}
+
+.contact-container textarea {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  border: 2px rgba(211, 146, 165, 0.428) solid;
+  margin-bottom: 10px;
+  padding-inline: 10px;
+  resize: vertical;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-container select {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  border: 2px rgb(211, 146, 166, 0.428) solid;
+  margin-bottom: 20px;
+  padding-inline: 20px;
+  font-size: medium;
+} 
+
+.contact-container button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px rgb(211, 146, 166, 0.428) solid;
+  margin-bottom: 10px;
+  padding-inline: 10px;
+  background-color: rgb(232, 166, 180);
+  color: white;
+  font-size: 20px;
+  font-family: 'arial', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-container button:hover, .contact-items button:active{
+  color: rgb(235, 58, 87);
+}
+
+.contact-container label {
+  color: rgb(211, 146, 166);
+  font-size: 20px;
+  font-family: 'Arial', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-item p {
+  color: rgb(112, 110, 111);
+  font-size: 20px;
+  font-family: 'arial', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
