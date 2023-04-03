@@ -1,8 +1,11 @@
+<!DOCTYPE html>
+
 <head>
 
     <!-- Title that will show in tab bar -->
     <title>Contact Us</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" >
+    <link type="text/css" rel="stylesheet" href="contact.css" >
 </head>
 
 <body>
@@ -31,7 +34,7 @@
                 123-456-7890</p>
             <h1 style="margin-left: 20%; margin-top: 10%;">General Enquiries</h1>
             <p>For general enquiries please use the form or contact us at
-                <a href="mailto:littlestpetshop@lps.com" style = "color: rgb(112, 110, 111);">littlestpetshop@lps.com</a>
+                <a href="mailto:littlestpetshop@lps.com" style="color: rgb(112, 110, 111);">littlestpetshop@lps.com</a>
             </p>
         </div>
 
@@ -39,6 +42,7 @@
             <h1>Send us a message</h1>
 
             <form id="form" action="nothing" method="get" onsubmit="alert('Form succcessfully submitted');">
+
                 <li><label for="fname"></label>
                     <input type="text" id="fname" name="firstname" placeholder="FIRST NAME:*" required>
                 </li>
@@ -66,7 +70,7 @@
                 </li>
 
                 <li><label for="message">Message:*<br></label>
-                    <textarea id="message" name="message" style="height:200px" required></textarea>
+                    <textarea id="message" name="message" required></textarea>
                 </li>
 
                 <button id="btn" type="submit">Submit</button>
