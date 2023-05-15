@@ -38,7 +38,7 @@
     width: 630px;
     height: 55px;
     border-radius: 5px;
-    border: 2px rgb(211, 146, 166, 0.428) solid;
+    border: 2px rgba(231, 122, 155, 0.675) solid;
     margin-bottom: 20px;
     font-size: large;
     padding-inline: 10px;
@@ -46,7 +46,7 @@
 
   /* Placeholder text style */
   .contact-container ::placeholder {
-    color: rgb(211, 146, 166);
+    color: rgb(214, 158, 174);
   }
   
   /* Message box style */
@@ -54,7 +54,7 @@
     width: 630px;
     height: 200px;
     border-radius: 5px;
-    border: 2px rgba(211, 146, 165, 0.428) solid;
+    border: 2px rgba(231, 122, 155, 0.675) solid;
     margin-bottom: 10px;
     resize: vertical;
     font-size: large;
@@ -67,7 +67,7 @@
     width: 654px;
     height: 59px;
     border-radius: 5px;
-    border: 2px rgb(211, 146, 166, 0.428) solid;
+    border: 2px rgba(231, 122, 155, 0.675) solid;
     margin-bottom: 20px;
     font-size: large;
     padding: 10px;
