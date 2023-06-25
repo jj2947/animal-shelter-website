@@ -3,22 +3,31 @@
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     text-align: center;
-    margin-top: 4%;
+    margin-top: 5%;
     margin-bottom: 2%;
 }
 
 .aboutInfo img {
     border-radius: 50%;
-    height: 250px;
+    height: 300px;
+    width: 300px;
+}
+
+.img {
+    flex-basis: 100%;
 }
 
 #headings {
     width: 100%;
     box-sizing: border-box;
     display: flex;
+    align-items: center;
     justify-content: space-around;
+}
+
+.heading {
+    flex-basis: 100%;
 }
 
 #headings h1 {
@@ -37,4 +46,23 @@
     letter-spacing: 3px;
     text-align: center;
     font-size: xx-large;
+}
+
+#text {
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 20px;
+    font-size: large;
+    font-weight: lighter;
+    color: black;
+    flex-basis: 100%;
+    padding-inline: 5%;
 }
